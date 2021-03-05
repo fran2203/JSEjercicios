@@ -12,5 +12,5 @@ const wordCounter = (str, pat) => {
     return count;
 };
 
-const word = wordCounter('Hola gente como andan aca probando Hola Hola', 'Hola');
+const word = wordCounter('Hola gente como andan aca probando hola hola', 'hola');
 console.log(word);
